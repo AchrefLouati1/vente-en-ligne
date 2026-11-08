@@ -98,7 +98,7 @@ Toutes les méthodes de service sont `@Transactional` : si une erreur arrive au 
 
 ## 7. Endpoints
 
-Base : `http://localhost:8080`
+Base : `http://localhost:8081`
 
 ### Catégories `/api/categories`
 | Méthode | URL | Description | Code |
@@ -208,7 +208,7 @@ Toutes les erreurs renvoient le même format JSON (classe `GlobalExceptionHandle
 ## 10. Tests Postman
 
 1. Importer `postman/vente-en-ligne.postman_collection.json` dans Postman.
-2. L'application doit tourner sur `http://localhost:8080` (variable `baseUrl`).
+2. L'application doit tourner sur `http://localhost:8081` (variable `baseUrl`).
 3. Clic droit sur la collection → **Run collection** : les 87 requêtes s'exécutent dans l'ordre
    et les identifiants créés sont enregistrés automatiquement dans des variables.
 4. Chaque requête contient des tests automatiques (code HTTP, contenu de la réponse) ;
